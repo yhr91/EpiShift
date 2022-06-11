@@ -21,6 +21,7 @@ def df_into_specified_bin_widths(
     df: pd.DataFrame, chromosome: str, bins: np.ndarray, *,
     labels = None, value_col = "value_") -> pd.DataFrame:
     """Redistribute signals from a data frame into specified bins.
+    author: Joe Wakim
 
     Parameters
     ----------
@@ -65,6 +66,7 @@ def scale_overlap(
     -----
     Distributes signals so that they are proportional to the width of the
     bins in the original dataframe.
+    author: Joe Wakim
 
     Parameters
     ----------
